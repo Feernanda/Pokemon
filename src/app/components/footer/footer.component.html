@@ -1,1 +1,20 @@
-<p>footer works!</p>
+<div class="footer" fxLayout="row wrap">
+    <div class="footer__container">
+        <img src="./../../../assets/images/footer/pokemon_company.png" alt="">
+        <ul>
+            <li *ngFor="let link of links"><a href="link.href"><span>{{link.text}}</span></a></li>
+        </ul>
+    </div>
+    <div class="footer__container">
+        <img src="" alt="">
+        <ul>
+            <li *ngFor="let link2 of links2"><a href="link2.href"><span>{{link2.text}}</span></a></li>
+        </ul>
+    </div>
+    <div class="footer__container" fxLayout="row">
+        <img src="./../../../assets/images/footer/thepokemoncompanyinternational-seal-1596150491.png" alt="">
+        <ul>
+            <li *ngFor="let link3 of links3"><a href="link3.href"><span>{{link3.text}}</span></a></li>
+        </ul>
+    </div>
+</div>

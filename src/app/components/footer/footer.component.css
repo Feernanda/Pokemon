@@ -1,0 +1,21 @@
+.footer{
+    background-color: #1f1f1f;
+    
+}
+
+.footer__container{
+    border: 2px solid;
+    padding: 50px;
+}
+
+.footer__container ul{
+    
+}
+.footer__container a{
+    color: #616161;
+    text-decoration: none;
+}
+.footer__container a:hover{
+    color: white;
+    transition: .2s;
+}
