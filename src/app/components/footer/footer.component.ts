@@ -37,37 +37,25 @@ export class FooterComponent implements OnInit {
     {
       "href" : "https://www.pokemon.com/es/noticias-pokemon/",
       "text" : "Novedades"
-    },
-    {
-      "href" : "https://www.pokemon.com/es/guia-para-padres-tutores/",
-      "text" : "Guía para padres y tutores"
-    },
-    {
-      "href" : "https://support.pokemon.com/hc/es",
-      "text" : "Servicios de atención al cliente"
-    },
-    {
-      "href" : "https://www.pokemon.com/es/sobre-pokemon/",
-      "text" : "Sobre nuestra compañía"
     }
   ];
 
   links3=[
     {
       "href" : "https://www.pokemon.com/es/noticias-pokemon/",
-      "text" : "Novedades"
+      "text" : "Condiciones de uso"
     },
     {
       "href" : "https://www.pokemon.com/es/guia-para-padres-tutores/",
-      "text" : "Guía para padres y tutores"
+      "text" : "Aviso de privacidad"
     },
     {
       "href" : "https://support.pokemon.com/hc/es",
-      "text" : "Servicios de atención al cliente"
+      "text" : "Pagina de cookies"
     },
     {
       "href" : "https://www.pokemon.com/es/sobre-pokemon/",
-      "text" : "Sobre nuestra compañía"
+      "text" : "Información legal"
     }
   ];
   constructor() { }

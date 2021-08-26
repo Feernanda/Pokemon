@@ -1,5 +1,5 @@
 
-<div class="menu" fxLayoutAlign="center">
+<!--<div class="menu" fxLayoutAlign="center" fxHide.xs fxHide.sm>
     <ul>
         <div class="menu__list" fxLayout="row wrap">
             <li routerLinkActive="active"><a class="menu_list--option-1" [routerLink]="['/index']"><img src="./../../../assets/images/icon/pngwing.com.png" alt="">Inicio</a></li>
@@ -12,7 +12,7 @@
     </ul>
 </div>
 
-<div class="menu__responsive">
+<div class="menu__responsive" fxHide.lg fxHide.md fxHide.xl fxHide.gt>
     <ul>
         <div class="menu-responsive__list">
               <li routerLinkActive="active"><a class="menu_list--option" [routerLink]="['/index']">Inicio</a></li>
@@ -23,19 +23,26 @@
               <li routerLinkActive="active"><a class="menu_list--option" [routerLink]="['/playpokemon']">Play! Pokémon</a></li>
         </div>
     </ul>
-</div>
+</div>!-->
 
-<div class="container" fxLayout="row center">
-    <img src="./../../../assets/images/" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
+<nav>
+    <div class="menu" fxLayoutAlign="center">
+    <div class="menu__list">
+        <input id="nav-toggle" type="checkbox">
+        <ul class="menu__list--links">
+            <li routerLinkActive = "active"><a class="menu_list--option-1" [routerLink]="['/index']">Inicio</a></li>
+            <li routerLinkActive = "active"><a class="menu_list--option-2" [routerLink]="['/pokedex']">Pokedex</a></li>
+            <li routerLinkActive = "active"><a class="menu_list--option-3" [routerLink]="['/aplications']">Videojuegos y aplicaciones</a></li>
+            <li routerLinkActive = "active"><a class="menu_list--option-4" [routerLink]="['/tradingcardgame']">Juego de cartas</a></li>
+            <li routerLinkActive = "active"><a class="menu_list--option-5" [routerLink]="['/tvpokemon']">Play! Pokémon</a></li>
+        </ul>
+    </div>
 </div>
+<label for="nav-toggle" class="icon-burger">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+</label>
+</nav>
 
 

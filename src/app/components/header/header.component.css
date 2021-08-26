@@ -26,13 +26,14 @@
 
 .container__header--lihover:hover{
     filter: opacity(.5);
-    transition: all 0.5s;
+    transition: all 0.5s
 }
 
 .container__header img{
     height: 50px;
     vertical-align: baseline;
     line-height: 1;
+    margin-top: 7px;
 }
 
 .container__header a{
@@ -41,4 +42,25 @@
     background-color: #fff;
     text-decoration: none;
     cursor: pointer;
+}
+
+.container__header--res,  .container__header--menu{
+    display: none;
+}
+
+@media all and (max-width: 600px){
+    .container__header{
+        display: block;
+        width: 100%;
+        background-color: white;
+    }
+    .container__header--menu{
+        display:none;
+        width: 30px;
+        height: 10px;
+    }
+
+    .container__header--res{
+        display: inline;
+    }
 }

@@ -1,1 +1,22 @@
-<p>pokedex works!</p>
+<div class="container" fxFlex="100" fxLayout="column" fxLayoutAlign="center center">
+    <div class="row">
+    <div class="col"><h1>Pokédex</h1>
+        <input class="container__input" type="text" name="" id="" [(ngModel)]="name">
+        <button  (click)="pokemonSearch()"><img class="container__button" src="./../../../../assets/images/general/—Pngtree—vector search icon_4184112.png" alt=""></button>
+    </div>
+</div>
+<div class="information">
+  <p class="information__text">
+    Busca un pokemon por su nombre o usando su numero de la Pokédex Nacional
+  </p>
+</div>
+<div class="card">
+    <img src="{{img}}" class="card__img-top" alt="...">
+    <div class="card-body">
+      <h1 class="card-title">{{name}}</h1>
+      <div class="description" fxLayout="row" fxLayoutAlign="space-evenly">
+      <p>ID: {{id}}</p>
+      </div>
+    </div>
+  </div>
+</div>
