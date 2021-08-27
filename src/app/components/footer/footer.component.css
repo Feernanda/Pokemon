@@ -4,7 +4,7 @@
 }
 .footer__container--1{
     border-right: 2px solid;
-    padding-left: 150px;
+    padding-left: 100px;
     margin: 20px;
 }
 
@@ -50,7 +50,7 @@
     transition: .2s;
 }
 
-@media all and (max-width: 600px){
+@media all and (max-width: 780px){
 
     .footer__container a{
         color: #616161;
@@ -58,8 +58,8 @@
     }
     .footer__container--1, .footer__container--3{
         border-bottom: 2px solid ;
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 40px;
+        padding-right: 40px;
         padding-top: 20px;
         margin: 0;
         width: 100%;
