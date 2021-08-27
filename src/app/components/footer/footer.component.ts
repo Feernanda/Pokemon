@@ -44,7 +44,7 @@ export class FooterComponent implements OnInit {
     },
     {
       "href" : "https://twitter.com/?lang=es",
-      "icon" : "./../../../assets/images/footer/tw.png"
+      "icon" : "./../../../assets/images/footer/tw2.png"
     }
   ];
 

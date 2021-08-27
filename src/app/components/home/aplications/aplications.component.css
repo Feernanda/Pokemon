@@ -4,6 +4,13 @@
 .video{
     text-align: center;
     padding: 20px;
+    background-color: rgba(36, 36, 83, 0.712);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+iframe{
+    border-radius: 5px;
+    border: solid blue;
 }
 .slider{
     width: 70%;
@@ -55,6 +62,18 @@
         width: 100%;
         height: 300px;
         
+    }
+    .video{
+        text-align: center;
+        width: 80%;
+        background-color: rgba(36, 36, 83, 0.712);
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+    iframe{
+        width: 70%;
+        border-radius: 5px;
+        border: solid blue;
     }
 }
 
