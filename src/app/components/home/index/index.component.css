@@ -5,28 +5,62 @@
     width: auto;
     background-color: white;
 }
+.login{
 
+  display:inline-block;
+  position: fixed;
+}
+
+.login__i{
+    text-align: left;
+}
+.login__i-a{
+  width: 60px;text-decoration: none;
+  background-color: #54b564;
+  border-radius: 5px;
+}
+.login__a span{
+  color: white;
+  background-color: #54b564;
+}
 .gallery{
   width: 750px;
   margin: auto;
+  padding-top: 20px;
   display: grid;
   grid-template-columns: 500px 300px;
   grid-template-rows: repeat(2,400px);
-  gap: 10px;
+  gap: 20px;
 }
-
-.gallery>*{
-  border: 1px solid black;
+.gallery__item-title{
+  display: block;
+  padding: 15px;
+  font-size: large;
+  font-style: italic;
+  font-weight: bold;
   color: white;
-  border-radius: 5px;
 }
-
 .gallery__item-1, .gallery__item-3{
   grid-column: 1 ;
-  background-color: #4dad5b;
+  background-color: #f8a409;
+  border-radius: 5px;
+  transition: transform .5s;
+}
+.gallery__item-1:hover{
+  transform: scale(1.05);
+}
+.gallery__item-3:hover{
+  transform: scale(1.05);
+}
+.gallery__item-2:hover{
+  transform: scale(1.05);
+}
+.gallery__item-4:hover{
+  transform: scale(1.05);
 }
 .gallery__item-2, .gallery__item-4{
   background-color: #855ac9;
+  border-radius: 5px;
 }
 .gallery__item--1-img, .gallery__item--3-img{
   width: 500px;
@@ -34,26 +68,31 @@
 }
 .gallery__item--2-img, .gallery__item--4-img{
   width: 300px;
-  height: 150px;
+  height: 170px;
   border-radius: 5px;
 }
-@media all and (max-width: 600px) {
 
-  .container{
-    width: 100%;
-    background-color: white;
+@media all and (max-width: 750px) {
+  .login__a{
+    width: 50px;
   }
-  
+  .login__bottom{
+    display: none;
+  }
   .gallery{
-    width: 100%;
+    width: 70%;
     display: grid;
-    grid-template-rows: repeat(2,400px);
-    gap: 10px;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(2,300px);
+    gap: 20px;
   }
   .gallery__item-2, .gallery__item-4{
+    grid-column: 1;
+    width: auto;
+  }
+  .gallery__item-1, .gallery__item-3{
     grid-column: 1 ;
   }
-
   .gallery__item--1-img, .gallery__item--3-img{
     width: 100%;
   }

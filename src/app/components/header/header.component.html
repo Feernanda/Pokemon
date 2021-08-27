@@ -3,7 +3,6 @@
         <ul>
             <li routerLinkActive="active"><a [routerLink]="['/index']"><img src="./../../../assets/images/header/logo-pokemon-79x45.png" alt=""></a></li>
             <li routerLinkActive="active"><a [routerLink]="['/tradingcardgame']"><img src="./../../../assets/images/header/logo-tcgo-79x45-es.png" alt=""></a></li>
-            <a href="navResp"><img class="container__header--res" src="./../../../assets/images/header/arrow.png" alt=""></a>
             <li class="container__header--li" *ngFor="let link of links"><a href="{{ link.href }}"><img src="{{link.img}}" alt=""></a></li>
             
         </ul>

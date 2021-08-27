@@ -1,1 +1,17 @@
-<p>aplications works!</p>
+<div class="container" fxLayout="column" fxLayout.ls="column">
+   <div class="video">
+        <h1 class="slider__title">Pokémon</h1>
+        <div class="ratio ratio-21x9">
+            <iframe src="assets/video/pokemon.mp4" type="video/mp4" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="slider">
+        <h1 class="slider__title"for="">Los pokémon más buscados</h1>
+        <ul fxLayout="row">
+            <li *ngFor="let img of images"><img src="{{img.src}}" alt=""><br>
+                <label class="name">{{img.name}}</label>
+            </li>       
+        </ul>
+    </div>
+ 
+</div>

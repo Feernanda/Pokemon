@@ -25,16 +25,16 @@
     </ul>
 </div>!-->
 
-<nav>
+<nav fxFlex.ls="100" fxLayoutAlign.ls="start start">
     <div class="menu" fxLayoutAlign="center">
     <div class="menu__list">
         <input id="nav-toggle" type="checkbox">
-        <ul class="menu__list--links">
-            <li routerLinkActive = "active"><a class="menu_list--option-1" [routerLink]="['/index']">Inicio</a></li>
-            <li routerLinkActive = "active"><a class="menu_list--option-2" [routerLink]="['/pokedex']">Pokedex</a></li>
-            <li routerLinkActive = "active"><a class="menu_list--option-3" [routerLink]="['/aplications']">Videojuegos y aplicaciones</a></li>
-            <li routerLinkActive = "active"><a class="menu_list--option-4" [routerLink]="['/tradingcardgame']">Juego de cartas</a></li>
-            <li routerLinkActive = "active"><a class="menu_list--option-5" [routerLink]="['/tvpokemon']">Play! Pokémon</a></li>
+        <ul class="menu__list--links" fxLayout="row wrap">
+            <li routerLinkActive = "active"><a class="menu_list--option-1" [routerLink]="['/index']"><img src="./../../../assets/images/icon/pikachu.png" alt=""> Inicio</a></li>
+            <li routerLinkActive = "active"><a class="menu_list--option-2" [routerLink]="['/pokedex']"><img src="./../../../assets/images/icon/pikachu.png" alt=""> Pokedex</a></li>
+            <li routerLinkActive = "active"><a class="menu_list--option-3" [routerLink]="['/aplications']"><img src="./../../../assets/images/icon/pikachu.png" alt=""> Videojuegos y aplicaciones</a></li>
+            <li routerLinkActive = "active"><a class="menu_list--option-4" [routerLink]="['/tradingcardgame']"><img src="./../../../assets/images/icon/pikachu.png" alt=""> Juego de cartas</a></li>
+            <li routerLinkActive = "active"><a class="menu_list--option-5" [routerLink]="['/playpokemon']"><img src="./../../../assets/images/icon/pikachu.png" alt=""> Play! Pokémon</a></li>
         </ul>
     </div>
 </div>

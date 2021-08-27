@@ -1,0 +1,33 @@
+.content{
+    text-align: center;
+    background-color: white;
+}
+.register{
+    width: 100%;
+    background-color: whitesmoke;
+    color: rgb(107, 105, 107);
+    border-radius: 5px;
+
+}
+.register__signUp{
+    background-color: #49949e;
+    padding:10px;
+    margin: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: large;
+    color: white;
+}
+.register__signUp a{
+    text-decoration: none;
+    
+}
+
+.register{
+    width: 100%;
+    background-color: whitesmoke;
+    color: rgb(107, 105, 107);
+}
+.content__img{
+    width: 70%;
+}

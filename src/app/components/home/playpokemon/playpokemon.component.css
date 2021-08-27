@@ -1,0 +1,61 @@
+.content{
+    background-color: white;
+}
+.login{
+    background-color: whitesmoke;
+    width: 45%;
+    border-radius: 5px;
+    margin: 25px;
+    color: rgb(107, 105, 107);
+}
+.loginForm__label{
+    color: rgb(107, 105, 107);
+    width: 100px;
+}
+.content__img{
+    width: auto;
+}
+.login__form-btn{
+    background-color: #4dad5b;
+    padding:10px;
+    color: white;
+    margin: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: large;
+}
+
+
+.register{
+    width: 50%;
+    background-color: whitesmoke;
+    color: rgb(107, 105, 107);
+    border-radius: 5px;
+}
+.register__signUp{
+    background-color: #49949e;
+    padding:10px;
+    margin: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: large;
+}
+.register__signUp a{
+    text-decoration: none;
+    color: white;
+}
+@media all and (max-width: 750px){
+    .login{
+        background-color: whitesmoke;
+        width: 100%;
+        text-align: center;
+    }
+    .register{
+        width: 100%;
+        background-color: whitesmoke;
+        color: rgb(107, 105, 107);
+    }
+    .content__img{
+        width: 70%;
+    }
+}

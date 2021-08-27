@@ -2,19 +2,21 @@
     <div class="footer__container--1">
         <img src="./../../../assets/images/footer/pokemon_company.png" alt="">
         <ul>
-            <li *ngFor="let link of links"><a href="link.href"><span>{{link.text}}</span></a></li>
+            <li *ngFor="let link of links"><a href="{{link.href}}"><span>{{link.text}}</span></a></li>
         </ul>
     </div>
     <div class="footer__container--2">
         <img src="" alt="">
-        <ul>
-            <li *ngFor="let link2 of links2"><a href="link2.href"><span>{{link2.text}}</span></a></li>
+        <ul class="footer__container--2-ul" fxLayout="row">
+            <li *ngFor="let link2 of links2"><a href="{{link2.href}}"><img class="social" src="{{link2.icon}}" alt=""></a></li>
         </ul>
     </div>
     <div class="footer__container--3" fxLayout="row">
-        <img src="./../../../assets/images/footer/thepokemoncompanyinternational-seal-1596150491.png" alt="">
+        <img class="footer__container--3-img" src="./../../../assets/images/footer/thepokemoncompanyinternational-seal-1596150491.png" alt="">
         <ul>
-            <li *ngFor="let link3 of links3"><a href="link3.href"><span>{{link3.text}}</span></a></li>
+            <li *ngFor="let link3 of links3"><a href="{{link3.href}}"><span>{{link3.text}}</span></a></li>
+            <li>©2021 Pokémon. TM, ®Nintendo.</li>
         </ul>
+        
     </div>
 </div>

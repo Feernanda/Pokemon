@@ -35,8 +35,16 @@ export class FooterComponent implements OnInit {
 
   links2=[
     {
-      "href" : "https://www.pokemon.com/es/noticias-pokemon/",
-      "text" : "Novedades"
+      "href" : "https://www.facebook.com/mabsgn/",
+      "icon" : "./../../../assets/images/footer/fb.png"
+    },
+    {
+      "href" : "youtube.com",
+      "icon" : "./../../../assets/images/footer/yt.png"
+    },
+    {
+      "href" : "https://twitter.com/?lang=es",
+      "icon" : "./../../../assets/images/footer/tw.png"
     }
   ];
 

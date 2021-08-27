@@ -17,11 +17,25 @@
 
     margin: 20px;
 }
+.social{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+.footer__container--3-img{
+    width: 125px;
+    height: 75px;
+}
 .footer__container--1 a{
     color: #616161;
     text-decoration: none;
 }
 
+.footer__container--2-ul{
+    list-style: none;
+    display: block;
+}
 .footer__container--2 a{
     color: #616161;
     text-decoration: none;
